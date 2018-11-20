@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+    <OutputExchangeItem>
+      <ElementSet>
+        <ID>Coweeta</ID>
+        <Description>Coweeta watershed, NC</Description>
+        <ShapefilePath>..\..\data\gis\coweeta_18.shp</ShapefilePath>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>PET</ID>
+        <Description>Potential Evapotranspiration</Description>
+        <Dimensions>
+          <Dimension>
+            <Base>Length</Base>
+            <Power>1</Power>
+          </Dimension>
+          <Dimension>
+            <Base>Time</Base>
+            <Power>-1</Power>
+          </Dimension>
+        </Dimensions>
+        <Unit>
+          <ID>mm/day</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>1</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2006-01-01 00:00:00</StartDateTime>
+    <EndDateTime>2009-10-31 00:00:00</EndDateTime>
+    <TimeStepInSeconds>86400</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>Hargreaves PET</ID>
+    <Description>Potential Evapotranspiration Calculated Using the Hargreaves-Samani Method</Description>
+  </ModelInfo>
+</Configuration>

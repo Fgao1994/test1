@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+	<ExchangeItems>
+		<OutputExchangeItem>
+			<ID>MainStreamOutFlow</ID>
+			<Description>The flow out of main stream.</Description>
+			<ElementSet>
+				<ID>LocC</ID>
+				<Description>location C</Description>
+				<Version>1</Version>
+			</ElementSet>
+			<Quantity>
+				<ID>Flow</ID>
+				<Description>The flow</Description>
+				<Unit>
+					<ID>mm/day</ID>
+					<Description>Millimeters per day</Description>
+					<ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+					<OffSetToSI>0</OffSetToSI>
+				</Unit>
+				<ValueType>Scalar</ValueType>
+			</Quantity>
+		</OutputExchangeItem>
+
+		<InputExchangeItem>
+			<ID>BranchStreamA</ID>
+			<Description>The inflow from branch stream A</Description>
+			<ElementSet>
+				<ID>LocationA</ID>
+				<Description>LocationA</Description>
+			</ElementSet>
+			<Quantity>
+				<ID>Flow</ID>
+				<Description>The flow out of locationA</Description>
+				<Unit>
+					<ID>mm/day</ID>
+					<Description>Millimeters per day</Description>
+					<ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+					<OffSetToSI>0</OffSetToSI>
+				</Unit>
+				<ValueType>s</ValueType>
+			</Quantity>
+		</InputExchangeItem>
+		<InputExchangeItem>
+			<ID>BranchStreamB</ID>
+			<Description>The inflow from branch stream B</Description>
+			<ElementSet>
+				<ID>LocationB</ID>
+				<Description>LocationB</Description>
+			</ElementSet>
+			<Quantity>
+				<ID>Flow</ID>
+				<Description>The flow out of locationB</Description>
+				<Unit>
+					<ID>mm/day</ID>
+					<Description>Millimeters per day</Description>
+					<ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+					<OffSetToSI>0</OffSetToSI>
+				</Unit>
+				<ValueType>s</ValueType>
+			</Quantity>
+		</InputExchangeItem>
+	</ExchangeItems>
+	<TimeHorizon>
+		<StartDateTime>2005-01-01 02:00:00</StartDateTime>
+		<EndDateTime>2005-01-01 24:00:00</EndDateTime>
+		<TimeStepInSeconds>1080</TimeStepInSeconds>
+	</TimeHorizon>
+	<ModelInfo>
+		<ID>RunOffComponentC</ID>
+		<Description>Example for the initialization of model with
+			configuration file.</Description>
+	</ModelInfo>
+</Configuration>

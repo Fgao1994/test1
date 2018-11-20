@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+    <OutputExchangeItem>
+      <ElementSet>
+        <ID>Sensor</ID>
+        <Description>The sensor to get the observation.</Description>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>Observation</ID>
+        <Description>O</Description>
+        <Dimensions>
+          <Dimension>
+            <Base>Length</Base>
+            <Power>1</Power>
+          </Dimension>
+          <Dimension>
+            <Base>Time</Base>
+            <Power>-1</Power>
+          </Dimension>
+        </Dimensions>
+        <Unit>
+          <ID>mm/day</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>1</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2000-6-14 19:00:00</StartDateTime>
+    <EndDateTime>2002-10-31 00:00:00</EndDateTime>
+    <TimeStepInSeconds>86400</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>SOSReader</ID>
+    <Description>The component to pull observations from the sensor.</Description>
+  </ModelInfo>
+</Configuration>

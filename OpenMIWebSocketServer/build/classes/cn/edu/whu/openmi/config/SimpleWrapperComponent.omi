@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinkableComponent Type="cn.edu.whu.openmi.test.examples.SimpleWrapperComponet2_1" JavaArchive="H:\\workspace\\SimpleWrapperComponentTest.jar">
+  <Arguments>
+    <Argument Key="ConfigFile" ReadOnly="true" Value="E:\\GeoJModelBuilder\\eclipseWS\\OpenMI-1.4-SDK\\src\\cn\\edu\\whu\\openmi\\smw\\examples\\SimpleWrapperComponet2-1-config.xml" />
+    <Argument Key="InputData" ReadOnly="true" Value="E:\\GeoJModelBuilder\\eclipseWS\\OpenMI-1.4-SDK\\src\\cn\\edu\\whu\\openmi\\smw\\examples\\AsciiReaderData2.txt" />
+  </Arguments>
+</LinkableComponent>

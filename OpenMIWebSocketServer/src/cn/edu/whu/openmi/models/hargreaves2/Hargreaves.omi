@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinkableComponent Type="cn.edu.whu.openmi.models.hargreaves2.Hargreaves" Assembly="D:\\SOSReaderRun\\OpenMISdk.jar">
+  <Arguments>
+    <Argument Key="OutputData" ReadOnly="true" Value="D:\\SOSReaderRun\\Hargreaves-Output.txt" />
+  </Arguments>
+</LinkableComponent>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+  		<InputExchangeItem>
+			<ElementSet>
+				<ID>Sensor</ID>
+				<Description>Sensor location.</Description>
+				<Version>1</Version>
+			</ElementSet>
+			<Quantity>
+				<ID>Observation</ID>
+				<Description>The observation.</Description>
+				<Dimensions>
+					<Dimension>
+						<Base>Length</Base>
+						<Power>1</Power>
+					</Dimension>
+				</Dimensions>
+				<Unit>
+					<ID>c</ID>
+					<Description>degree celsius</Description>
+					<ConversionFactorToSI>1</ConversionFactorToSI>
+					<OffSetToSI>0</OffSetToSI>
+				</Unit>
+				<ValueType>Scalar</ValueType>
+			</Quantity>
+		</InputExchangeItem>
+    <OutputExchangeItem>
+      <ElementSet>
+        <ID>Coweeta</ID>
+        <Description>Coweeta watershed, NC</Description>
+        <ShapefilePath>..\..\data\gis\coweeta_18.shp</ShapefilePath>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>PET</ID>
+        <Description>Potential Evapotranspiration</Description>
+        <Dimensions>
+          <Dimension>
+            <Base>Length</Base>
+            <Power>1</Power>
+          </Dimension>
+          <Dimension>
+            <Base>Time</Base>
+            <Power>-1</Power>
+          </Dimension>
+        </Dimensions>
+        <Unit>
+          <ID>mm/day</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>1</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2000-6-15 00:00:00</StartDateTime>
+    <EndDateTime>2002-10-31 00:00:00</EndDateTime>
+    <TimeStepInSeconds>86400</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>Hargreaves PET</ID>
+    <Description>Potential Evapotranspiration Calculated Using the Hargreaves-Samani Method</Description>
+  </ModelInfo>
+</Configuration>

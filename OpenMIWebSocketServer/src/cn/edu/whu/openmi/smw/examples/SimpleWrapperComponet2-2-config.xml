@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+    <OutputExchangeItem>
+    <ID>FlowOutInLoc2</ID>
+    <Description>The flow out of location NO.2</Description>
+      <ElementSet>
+        <ID>Loc2</ID>
+        <Description>location No.1</Description>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>Flow</ID>
+        <Description>The flow</Description>
+        <Unit>
+          <ID>mm/day</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+    
+    <InputExchangeItem>
+    <ID>InflowInLoc1</ID>
+    <Description>The inflow of location NO.1</Description>
+      <ElementSet>
+        <ID>Location1</ID>
+        <Description>Location1</Description>
+      </ElementSet>
+      <Quantity>
+        <ID>Flow</ID>
+        <Description>The flow out of location1</Description>
+        <Unit>
+         <ID>mm/day</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>s</ValueType>
+      </Quantity>
+    </InputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2005-01-01 00:00:00</StartDateTime>
+    <EndDateTime>2005-01-01 18:00:00</EndDateTime>
+    <TimeStepInSeconds>10800</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>SimpleWrapperComponet1-2</ID>
+    <Description>Example for the initialization of model with configuration file.</Description>
+  </ModelInfo>
+</Configuration>

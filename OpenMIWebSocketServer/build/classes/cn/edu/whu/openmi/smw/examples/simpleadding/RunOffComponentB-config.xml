@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+	<ExchangeItems>
+		<OutputExchangeItem>
+			<ID>FlowOutInLocB</ID>
+			<Description>The flow out of location NO.2</Description>
+			<ElementSet>
+				<ID>Loc2</ID>
+				<Description>location No.2</Description>
+				<Version>1</Version>
+			</ElementSet>
+			<Quantity>
+				<ID>Flow</ID>
+				<Description>The flow</Description>
+				<Unit>
+					<ID>mm/day</ID>
+					<Description>Millimeters per day</Description>
+					<ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+					<OffSetToSI>0</OffSetToSI>
+				</Unit>
+				<ValueType>Scalar</ValueType>
+			</Quantity>
+		</OutputExchangeItem>
+	</ExchangeItems>
+	<TimeHorizon>
+		<StartDateTime>2005-01-01 00:00:00</StartDateTime>
+		<EndDateTime>2005-01-01 24:00:00</EndDateTime>
+		<TimeStepInSeconds>10800</TimeStepInSeconds>
+	</TimeHorizon>
+	<ModelInfo>
+		<ID>RunOffComponentB</ID>
+		<Description>Example for the initialization of model with
+			configuration file.</Description>
+	</ModelInfo>
+</Configuration>
