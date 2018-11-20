@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinkableComponent Type="Hargreaves.source.LinkableComponent" Assembly="..\..\bin\Hargreaves.dll">
+  <Arguments>
+    <Argument Key="InputData" ReadOnly="true" Value="" />
+    <Argument Key="OutputData" ReadOnly="true" Value="" />
+  </Arguments>
+</LinkableComponent>

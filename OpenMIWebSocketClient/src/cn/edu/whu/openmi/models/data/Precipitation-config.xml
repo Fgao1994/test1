@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+    <OutputExchangeItem>
+    <ID>Precipitation</ID>
+    <Description>Precipitation in Climate Station 01</Description>
+      <ElementSet>
+        <ID>COWEETA</ID>
+        <Description>Climate Station 01</Description>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>Precipitation</ID>
+        <Description>The Precipitation</Description>
+        <Unit>
+          <ID>millimeter</ID>
+          <Description>Millimeters per day</Description>
+          <ConversionFactorToSI>0.000000011574074</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2001-01-01 00:00:00</StartDateTime>
+    <EndDateTime>2009-10-31 00:00:00</EndDateTime>
+    <TimeStepInSeconds>86400</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>Precipitation</ID>
+    <Description>Read file to offer precipitation.</Description>
+  </ModelInfo>
+</Configuration>

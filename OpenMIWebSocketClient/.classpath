@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/Java-WebSocket-1.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/gdal.jar"/>
+	<classpathentry kind="lib" path="lib/jaxen-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/MQTT/workspace/Mqttest/lib/org.eclipse.paho.client.mqttv3-1.1.0.jar" sourcepath="/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3"/>
+	<classpathentry kind="lib" path="D:/websocket/websocket-workspace/OpenMIWebSocketClient/lib/mqtt-client-java1.4-uber-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/PostSql/pgjdbc/postgresql-42.0.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

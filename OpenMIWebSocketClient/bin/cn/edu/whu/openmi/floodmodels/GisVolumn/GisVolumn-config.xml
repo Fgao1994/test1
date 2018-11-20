@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Configuration>
+  <ExchangeItems>
+  <OutputExchangeItem>
+      <ElementSet>
+        <ID>FloodElevation</ID>
+        <Description>Wuhan station, FloodElevation</Description>
+        <ShapefilePath>..\..\data\gis\coweeta_18.shp</ShapefilePath>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>FloodElevation</ID>
+        <Description>FloodElevation in Wuhan</Description>
+        <Dimensions>
+          <Dimension>
+            <Base>Length</Base>
+            <Power>1</Power>
+          </Dimension>
+          <Dimension>
+            <Base>Time</Base>
+            <Power>-1</Power>
+          </Dimension>
+        </Dimensions>
+        <Unit>
+          <ID>mm</ID>
+          <Description>Millimeters in cumulative time</Description>
+          <ConversionFactorToSI>1</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </OutputExchangeItem>
+    <InputExchangeItem>
+      <ElementSet>
+        <ID>FloodVolumn</ID>
+        <Description>Wuhan station, FloodVolumn</Description>
+        <ShapefilePath>..\..\data\gis\coweeta_18.shp</ShapefilePath>
+        <Version>1</Version>
+      </ElementSet>
+      <Quantity>
+        <ID>FloodVolumn</ID>
+        <Description>FloodVolumn in Wuhan</Description>
+        <Dimensions>
+          <Dimension>
+            <Base>Length</Base>
+            <Power>1</Power>
+          </Dimension>
+          <Dimension>
+            <Base>Time</Base>
+            <Power>-1</Power>
+          </Dimension>
+        </Dimensions>
+        <Unit>
+          <ID>mm</ID>
+          <Description>Millimeters in cumulative time</Description>
+          <ConversionFactorToSI>1</ConversionFactorToSI>
+          <OffSetToSI>0</OffSetToSI>
+        </Unit>
+        <ValueType>Scalar</ValueType>
+      </Quantity>
+    </InputExchangeItem>
+  </ExchangeItems>
+  <TimeHorizon>
+    <StartDateTime>2017-04-27 10:17:42</StartDateTime>
+    <EndDateTime>2017-04-27 11:10:42</EndDateTime>
+    <TimeStepInSeconds>60</TimeStepInSeconds>
+  </TimeHorizon>
+  <ModelInfo>
+    <ID>GisVolumn flood elevation</ID>
+    <Description>Flood elevation Calculated Using the GisVolumn Model</Description>
+  </ModelInfo>
+</Configuration>

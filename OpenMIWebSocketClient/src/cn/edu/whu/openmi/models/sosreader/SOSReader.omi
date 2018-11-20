@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinkableComponent Type="cn.edu.whu.openmi.models.sosreader.SOSReader" Assembly="D:\\Demonstration\\GeoModels\\OpenMISdk.jar">
+  <Arguments>
+    <Argument Key="Address" ReadOnly="true" Value="http://202.114.114.55:8088/52nSOSv3_WAR/sos"/>
+    <Argument Key="Version" ReadOnly="true" Value="1.0" />
+    <Argument Key="Procedure" ReadOnly="true" Value="urn:ogc:object:feature:sensor:coweeta:temperature_gauge_1" />
+    <Argument Key="Offering" ReadOnly="true" Value="CoweetaTemperatureMonitor" />
+    <Argument Key="ObservedProperty" ReadOnly="true" Value="urn:ogc:def:phenomenon:coweeta:AverageTemperature" />
+  </Arguments>
+</LinkableComponent>
