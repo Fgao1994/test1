@@ -7,7 +7,7 @@ WebSocket(https://www.w3.org/TR/websockets/)
 OpenMI(https://www.openmi.org/)
 
 ## Documentation
-[![GoDoc](https://godoc.org/github.com/gorilla/websocket?status.svg)](https://godoc.org/github.com/gorilla/websocket)
+[![API](https://github.com/Fgao1994/test1/blob/master/Doc.docx)](https://github.com/Fgao1994/test1/blob/master/Doc.docx)
 
 * [API Reference](https://github.com/Fgao1994/test1/blob/master/Doc.docx)
 * [TOPModel Example](https://github.com/Fgao1994/test1/)
