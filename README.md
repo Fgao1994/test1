@@ -10,7 +10,7 @@ OpenMI(https://www.openmi.org/)
 
 * [API Reference](https://github.com/Fgao1994/test1/blob/master/Doc.docx)
 * [TOPModel Example](https://github.com/Fgao1994/test1/)
-* [Figures](https://github.com/Fgao1994/test1/) 
+* [Figures](https://github.com/Fgao1994/test1/tree/master/Figures) 
   
 ## The role of client and server in the IEM case 
 To evaluate the effectiveness of deploying models as WebSocket services, we did a comparative analysis of performance over model simulation between WebSocket and HTTP protocols.So client-end includes HTTP-based client and WebSocket-based client, the server-end includes HTTP-based server and WebSocket-based server.
